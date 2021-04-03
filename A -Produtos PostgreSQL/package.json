@@ -1,0 +1,15 @@
+{
+  "name": "prodpostgresql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "typeorm": "ts-node-dev node_modules/typeorm/cli.js"
+  },
+  "dependencies": {
+    "pg": "^8.5.1",
+    "ts-node-dev": "^1.1.6",
+    "typeorm": "^0.2.32",
+    "typescript": "^4.2.3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "savio",
+    "password": "shoppng591",
+    "database": "proviweek1",
+    "entities": ["./models/*.ts"],
+    "migrations": ["./database/migrations/*.ts"],
+    "cli": {
+      "migrationsDir": "./database/migrations"
+    }
+  }
+  
